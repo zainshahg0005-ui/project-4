@@ -1,23 +1,27 @@
-Project 4: JavaScript Mini Projects
-This repository contains 9 JavaScript mini projects developed to practice core JavaScript concepts and programming logic.
+# Project 4: JavaScript Mini Projects
 
-# Projects Included
+This repository contains **9 JavaScript mini projects** developed to practice core JavaScript concepts and programming logic.
 
- Kelvin Weather 
- Race Day
- Rock Paper Scissors
- Sleep Debt Calculator
- Training Days
- Whale Talk
- Grammar Checker
- Meal Maker
- Team Stats
- 
-#Technologies Used
-HTML
-CSS
-JavaScript
+## Projects Included
 
-# How to Run 
-clone/pull/ download zip file.
-after that unzip the file and open the index file in any modren browser.
+* Kelvin Weather
+* Race Day
+* Rock Paper Scissors
+* Sleep Debt Calculator
+* Training Days
+* Whale Talk
+* Grammar Checker
+* Meal Maker
+* Team Stats
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+
+## How to Run
+
+1. Clone, pull, or download the ZIP file.
+2. Extract (unzip) the downloaded file.
+3. Open the `index.html` file in any modern web browser.
