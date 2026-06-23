@@ -1,5 +1,5 @@
 # Project 4: JavaScript Mini Projects
-
+#Name Zain Shah   Roll NO: 2665. 
 This repository contains **9 JavaScript mini projects** developed to practice core JavaScript concepts and programming logic.
 
 ## Projects Included
