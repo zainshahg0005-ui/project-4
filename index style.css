@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to bottom right, #f8fafc, #eef2ff);
+    color:#1e293b;
+    min-height:100vh;
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#64748b;
+    font-size:1.1rem;
+}
+
+/* Main */
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+main h2{
+    text-align:center;
+    margin-bottom:35px;
+    font-size:2rem;
+    color:#334155;
+}
+
+/* Grid */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+/* Cards */
+.project{
+    background:white;
+    text-decoration:none;
+    color:inherit;
+    padding:25px;
+    border-radius:18px;
+    position:relative;
+    overflow:hidden;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.05);
+
+    transition:all .3s ease;
+}
+
+/* Colored Top Border */
+.project::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:#3b82f6;
+}
+
+/* Project Number */
+.project h3{
+    display:inline-block;
+    background:#eff6ff;
+    color:#2563eb;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:.9rem;
+    margin-bottom:15px;
+}
+
+.project p{
+    font-size:1.05rem;
+    color:#475569;
+    font-weight:600;
+}
+
+/* Hover */
+.project:hover{
+    transform:translateY(-8px);
+    box-shadow:
+    0 15px 35px rgba(59,130,246,.15);
+}
+
+/* Different Colors */
+.project:nth-child(2)::before{
+    background:#ef4444;
+}
+
+.project:nth-child(3)::before{
+    background:#22c55e;
+}
+
+.project:nth-child(4)::before{
+    background:#f59e0b;
+}
+
+.project:nth-child(5)::before{
+    background:#8b5cf6;
+}
+
+.project:nth-child(6)::before{
+    background:#06b6d4;
+}
+
+.project:nth-child(7)::before{
+    background:#ec4899;
+}
+
+.project:nth-child(8)::before{
+    background:#14b8a6;
+}
+
+.project:nth-child(9)::before{
+    background:#6366f1;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    header h1{
+        font-size:2.2rem;
+    }
+
+    main h2{
+        font-size:1.6rem;
+    }
+}
