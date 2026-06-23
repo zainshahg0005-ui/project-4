@@ -1,7 +1,7 @@
 Project 4: JavaScript Mini Projects
 This repository contains 9 JavaScript mini projects developed to practice core JavaScript concepts and programming logic.
 
-Projects Included
+# Projects Included
 Kelvin Weather
 Race Day
 Rock Paper Scissors
@@ -15,3 +15,7 @@ Technologies Used
 HTML
 CSS
 JavaScript
+
+# How to Run 
+clone/pull/ download zip file.
+after that unzip the file and open the index file in any modren browser.
